@@ -256,7 +256,15 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("published", function (items) {
-    return items.filter(item => item.data.tags?.includes('published'))
+    return items.filter(item => {
+      return item.data.tags?.includes('published');
+    })
+  });
+
+  eleventyConfig.addFilter("articles", function (items) {
+    return items.filter(item => {
+      return !item.data.tags?.includes("update")
+    })
   });
 
   const yesterday = new Date();
