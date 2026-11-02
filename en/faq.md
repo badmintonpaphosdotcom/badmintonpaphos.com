@@ -13,7 +13,7 @@ jsonld: |
         "name": "How much does it cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Your first two sessions are complimentary! If you’re keen to continue, simply register and choose the subscription that suits you best."
+          "text": "Please register and choose the subscription that suits you best."
         }
       },
       {
@@ -62,7 +62,7 @@ jsonld: |
 
 ## How much does it cost?
 
-Your first two sessions are complimentary! If you’re keen to continue, simply register and choose the subscription that suits you best.
+Please register and choose the subscription that suits you best.
 
 ## What if I can’t afford the membership?
 

@@ -42,6 +42,8 @@ image: /asset/adults.jpeg
 
 ## Επικοινωνία
 
+Ενδιαφέρεστε να γίνετε μέλος του συλλόγου; Επικοινωνήστε μαζί μας!
+
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/3)
 
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)

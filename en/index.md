@@ -42,6 +42,8 @@ We welcome beginners and experienced players. Interested?
 
 ## Contact
 
+Interested in joining the club? Contact us!
+
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/3)
 
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)

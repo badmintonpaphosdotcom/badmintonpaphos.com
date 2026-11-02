@@ -42,6 +42,8 @@ image: /asset/adults.jpeg
 
 ## Контакты
 
+Хотите стать членом клуба? Свяжитесь с нами!
+
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) или [Telegram](https://t.me/promitheas_badminton_club_trial/3)
 
 - **Электронная почта:** [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
