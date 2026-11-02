@@ -39,3 +39,9 @@ image: /asset/adults.jpeg
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Τηλέφωνο**: [+357 96 401 987](tel:+35796401987)
 - **Διεύθυνση**: [QCH6+455, Πάφος, Κύπρος](https://www.google.com/maps/dir/?api=1&destination=Proodeftikos+Badminton+Club)
+
+## Σχόλια
+
+Τα σχόλιά σας μας βοηθούν να βελτιώσουμε το σύλλογο!
+
+[Στείλτε τα σχόλια σας](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)

@@ -39,3 +39,9 @@ We welcome beginners and experienced players. Interested?
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Phone**: [+357 96 401 987](tel:+35796401987)
 - **Address**: [QCH6+455, Paphos, Cyprus](https://www.google.com/maps/dir/?api=1&destination=Proodeftikos+Badminton+Club)
+
+## Feedback
+
+Your feedback helps us make the club better!
+
+[Send your feedback](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)

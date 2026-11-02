@@ -67,3 +67,9 @@ image: /asset/kids.jpeg
 
 - **Телефон:** [+357 96012444](tel:+35796012444)
 - **Email:** tatjana.obraztsov@gmail.com
+
+## Обратная связь
+
+Ваши отзывы помогают нам улучшить клуб!
+
+[Оставьте обратную связь](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)

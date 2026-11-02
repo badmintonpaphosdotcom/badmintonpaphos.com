@@ -39,3 +39,9 @@ image: /asset/adults.jpeg
 - **Электронная почта:** [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Телефон:** [+357 96 401 987](tel:+35796401987)
 - **Адрес:** [QCH6+455, Пафос, Кипр](https://www.google.com/maps/dir/?api=1&destination=Proodeftikos+Badminton+Club)
+
+## Обратная связь
+
+Ваши отзывы помогают нам улучшить клуб!
+
+[Оставьте обратную связь](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)

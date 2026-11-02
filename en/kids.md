@@ -67,3 +67,9 @@ The sport develops better visual abilities and hand-eye coordination by continuo
 
 - **Phone:** [+357 96012444](tel:+35796012444)
 - **Email:** tatjana.obraztsov@gmail.com
+
+## Feedback
+
+Your feedback helps us make the club better!
+
+[Send your feedback](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)

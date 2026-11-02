@@ -67,3 +67,9 @@ image: /asset/kids.jpeg
 
 - **Τηλέφωνο:** [+357 96012444](tel:+35796012444)
 - **Email:** tatjana.obraztsov@gmail.com
+
+## Σχόλια
+
+Τα σχόλιά σας μας βοηθούν να βελτιώσουμε το σύλλογο!
+
+[Στείλτε τα σχόλια σας](https://docs.google.com/forms/d/e/1FAIpQLSd33-8vLQ6yA8qHU9UH3TbttgYFoUb87omQpFQSM92DyYT8mg/viewform?usp=header)
