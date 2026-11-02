@@ -32,6 +32,14 @@ We welcome beginners and experienced players. Interested?
 2. Bring your racket or borrow one for free.
 3. Contact us if you have any questions.
 
+## Rules
+
+1. Do not walk on or near a court when people are playing.
+2. Respect the shuttles.
+3. If you just played and there are people waiting, they take priority.
+
+[Full rules →](/en/rules/)
+
 ## Contact
 
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/3)

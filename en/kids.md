@@ -61,6 +61,14 @@ Badminton is more than a sport; it's a fun activity with new friends. No screens
 ### Hand-Eye Coordination
 The sport develops better visual abilities and hand-eye coordination by continuously gauging the speed of the shuttle.
 
+## Rules
+
+1. Do not walk on or near a court when people are playing.
+2. Respect the shuttles.
+3. If you just played and there are people waiting, they take priority.
+
+[Full rules →](/en/rules/)
+
 ## Contact
 
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/2)
