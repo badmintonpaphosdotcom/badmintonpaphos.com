@@ -21,7 +21,8 @@
     "feed2json": "^0.6.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-toc-done-right": "^4.2.0",
-    "music-metadata": "^11.10.6"
+    "music-metadata": "^11.10.6",
+    "qrcode-svg": "^1.1.0"
   },
   "devDependencies": {
     "sharp": "^0.34.5"

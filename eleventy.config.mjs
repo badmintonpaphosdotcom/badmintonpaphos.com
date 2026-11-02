@@ -25,6 +25,8 @@ function secondsToHMS(seconds) {
 }
 
 
+import QRCode from "qrcode-svg";
+
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("asset");
@@ -258,6 +260,23 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("withDomain", function (url) {
     return new URL(url, "https://badmintonpaphos.com").href;
+  });
+
+  eleventyConfig.addFilter("qrcode", function (url) {
+    const qr = new QRCode({
+      content: url,
+      padding: 0,
+      width: 128,
+      height: 128,
+      color: "#000000",
+      background: "#ffffff",
+      ecl: "M",
+      join: true,
+      predefined: false,
+      xmlDeclaration: false,
+      container: "svg-viewbox",
+    });
+    return qr.svg();
   });
 
   eleventyConfig.addFilter("published", function (items) {
