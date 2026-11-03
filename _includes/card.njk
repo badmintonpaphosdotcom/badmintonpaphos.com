@@ -2,7 +2,13 @@
 <article dir="{{lang_dir}}" lang="{{lang}}">
 
   {%- if image -%}
-    <img alt="{{image_alt}}" src="{{image}}"/>
+    <div class="card-image-wrapper">
+      <img loading="lazy" decoding="async" alt="{{image_alt}}" src="{{image}}" width="800" height="450" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw" style="display: block;"/>
+    </div>
+  {%- else %}
+    <div class="card-image-wrapper">
+      <img alt="Badminton Placeholder" src="/asset/placeholder-badminton-card.jpeg" width="800" height="450" style="opacity: 0.7;"/>
+    </div>
   {%- endif -%}
 
   <header>
@@ -83,6 +89,20 @@
 
     article .meta {
     	color: var(--text-light);
+    }
+
+    .card-image-wrapper {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% top;
+      display: block;
     }
 </style>
 

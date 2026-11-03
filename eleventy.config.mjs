@@ -128,8 +128,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: "html",
-    formats: ["jpg", "webp"],
-    widths: ["auto", 400, 800],
+    formats: ["avif", "webp", "jpg"],
+    widths: ["auto", 200, 400, 800, 1200],
     defaultAttributes: {
       loading: "lazy",
       sizes: "100vw",

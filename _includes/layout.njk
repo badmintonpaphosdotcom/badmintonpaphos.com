@@ -74,13 +74,7 @@
       font-weight: bold;
     }
 
-    .logo {
-      z-index: -1;
-      margin-top: 1rem;
-      position: absolute;
-      right: 0;
-      opacity: 0.1
-    }
+
 
     hr {
       opacity: 0.2;
@@ -486,9 +480,21 @@
       fill: var(--fg);
       color: var(--fg);
     }
+
+    .logo {
+      width: 33vw;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      position: absolute;
+      right: 0;
+      margin-top: 33vh;
+      opacity: 0.1;
+    }
   </style>
   <nav class="menu menu--main no-print">
-    <img aria-hidden="true" class="logo" alt="Proodeftikos Badminton Club" src="/asset/logo.png">
+    <picture>
+      <img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/asset/logo.png" width="600">
+    </picture>
 
     <ul>
       <li><a {{currentPageExact("/")}}>
