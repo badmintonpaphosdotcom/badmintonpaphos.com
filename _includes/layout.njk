@@ -23,6 +23,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proodeftikos BC | {{ title }}</title>
   <meta name="description" content="{{description}}">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
   <script>
     window.env = JSON.parse(`{{env | safe}}`)
@@ -50,10 +56,9 @@
   <meta property="og:url" content="{{url | withDomain}}"/>
   <meta property="og:description" content="{{description}}"/>
 
-  <style>
+  <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css" crossorigin>
 
-    /* External CSS */
-    @import url('https://unpkg.com/simpledotcss/simple.min.css');
+  <style>
 
     @media print {
       .no-print {
@@ -483,6 +488,7 @@
 
     .logo {
       width: 33vw;
+      height: auto;
       aspect-ratio: 1 / 1;
       object-fit: cover;
       position: absolute;
@@ -493,7 +499,7 @@
   </style>
   <nav class="menu menu--main no-print">
     <picture>
-      <img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/asset/logo.png" width="600">
+      <img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/asset/logo.png" width="600" height="600">
     </picture>
 
     <ul>
@@ -728,7 +734,7 @@
 
   </footer>
 
-  <script id="quicklink_js" async src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+  <script id="quicklink_js" defer src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
 
   <script>
 
