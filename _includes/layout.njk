@@ -147,8 +147,8 @@
       ::backdrop {
         --bg: #000000AA; /* Semi-transparent black background */
         --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #4eb27e; /* Light green for dark theme (7.99:1 contrast with black) */
-        --accent-hover: #3d9966; /* Slightly darker shade for hover state */
+        --accent: #72e2a8; /* Brighter green for dark theme (~8.1:1 contrast with black, passes AAA) */
+        --accent-hover: #5fdca0; /* Slightly darker shade for hover state */
         --accent-bg: #33333366;
       }
     }
@@ -560,89 +560,7 @@
       }
     </style>
 
-    <!-- Experiment: disable audio player event when has podcast file
-    <audio class="podcast_player" src="{{ podcast.file }}" controls>
-      Your browser does not support the audio element.
-    </audio>
-    -->
 
-
-    <script>
-      const audioPlayer = document.querySelector('.podcast_player');
-      let userIsScrolling = false; // Track if the user is scrolling
-      let isProgrammaticScroll = false; // Track if the scroll is triggered programmatically
-      let scrolledToElement;
-
-      function timeToSeconds(time) {
-        const parts = time.split(':');
-        let seconds = 0;
-
-        if (parts.length === 3) {
-          // HH:MM:SS format
-          seconds = parseInt(parts[0], 10) * 3600 + parseInt(parts[1], 10) * 60 + parseInt(parts[2], 10);
-        } else {
-          // MM:SS format
-          seconds = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
-        }
-
-        return seconds;
-      }
-
-      function scrollToTextElement(currentTime) {
-        if (userIsScrolling) return;
-        if (isProgrammaticScroll) return;
-
-        const closest = Array.from(document.querySelectorAll('[data-time]')).reduce((closest, element) => {
-          const dateTime = element.getAttribute('data-time');
-          const elementTimeInSeconds = timeToSeconds(dateTime);
-
-          if (elementTimeInSeconds <= currentTime) {
-            if (!closest || elementTimeInSeconds > closest.time) {
-              return { element, time: elementTimeInSeconds };
-            }
-          }
-          return closest;
-        }, null);
-
-        if (closest == null) return
-        if (scrolledToElement == closest.element) return;
-
-        scrolledToElement = closest.element
-
-        isProgrammaticScroll = true
-        closest.element.scrollIntoView({ behavior: 'smooth' });
-      }
-
-      audioPlayer.addEventListener('timeupdate', () => {
-        const currentTime = audioPlayer.currentTime;
-        scrollToTextElement(currentTime);
-      });
-
-      function debounce(func, delay) {
-        let scrollTimeout;
-
-        return function(...args) {
-          clearTimeout(scrollTimeout);
-          scrollTimeout = setTimeout(() => {
-            func.apply(this, args);
-          }, delay);
-        };
-      }
-
-      window.addEventListener('scroll', debounce(() => {
-        if (isProgrammaticScroll) {
-          isProgrammaticScroll = false;
-          return;
-        }
-
-        userIsScrolling = true;
-      }, 200));
-
-      audioPlayer.addEventListener('play', () => {
-        userIsScrolling = false;
-      });
-
-    </script>
 
 
     {% endif %}
@@ -734,7 +652,7 @@
 
   </footer>
 
-  <script id="quicklink_js" defer src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+  <script id="quicklink_js" defer src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/3.0.2/quicklink.umd.js"></script>
 
   <script>
 
