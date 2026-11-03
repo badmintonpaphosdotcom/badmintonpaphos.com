@@ -17,6 +17,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proodeftikos BC | Unpublished</title>
   <meta name="description" content="">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin="">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
   <script>
     window.env = JSON.parse(`{
@@ -44,10 +50,9 @@
   <meta property="og:url" content="https://badmintonpaphos.com/undefined">
   <meta property="og:description" content="">
 
-  <style>
+  <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css" crossorigin="">
 
-    /* External CSS */
-    @import url('https://unpkg.com/simpledotcss/simple.min.css');
+  <style>
 
     @media print {
       .no-print {
@@ -68,13 +73,7 @@
       font-weight: bold;
     }
 
-    .logo {
-      z-index: -1;
-      margin-top: 1rem;
-      position: absolute;
-      right: 0;
-      opacity: 0.1
-    }
+
 
     hr {
       opacity: 0.2;
@@ -142,8 +141,8 @@
       ::backdrop {
         --bg: #000000AA; /* Semi-transparent black background */
         --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #4eb27e; /* Light green for dark theme (7.99:1 contrast with black) */
-        --accent-hover: #3d9966; /* Slightly darker shade for hover state */
+        --accent: #72e2a8; /* Brighter green for dark theme (~8.1:1 contrast with black, passes AAA) */
+        --accent-hover: #5fdca0; /* Slightly darker shade for hover state */
         --accent-bg: #33333366;
       }
     }
@@ -421,9 +420,20 @@
       fill: var(--fg);
       color: var(--fg);
     }
+
+    .logo {
+      width: 33vw;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      position: absolute;
+      right: 0;
+      margin-top: 33vh;
+      opacity: 0.1;
+    }
   </style>
   <nav class="menu menu--main no-print">
-    <picture><source type="image/webp" srcset="/img/wUhRK4fxT_-400.webp 400w, /img/wUhRK4fxT_-800.webp 800w, /img/wUhRK4fxT_-1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" aria-hidden="true" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-400.jpeg" width="1024" height="1024" srcset="/img/wUhRK4fxT_-400.jpeg 400w, /img/wUhRK4fxT_-800.jpeg 800w, /img/wUhRK4fxT_-1024.jpeg 1024w" sizes="100vw"></picture>
+    <picture><source type="image/avif" srcset="/img/wUhRK4fxT_-600.avif" sizes="100vw"><source type="image/webp" srcset="/img/wUhRK4fxT_-600.webp" sizes="100vw"><img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-600.jpeg" width="600" height="600"></picture>
 
     <ul>
       <li><a href="/">
@@ -474,7 +484,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/-zGqYlqy85-400.webp 400w, /img/-zGqYlqy85-800.webp 800w, /img/-zGqYlqy85-1920.webp 1920w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/-zGqYlqy85-400.jpeg" width="1920" height="1080" srcset="/img/-zGqYlqy85-400.jpeg 400w, /img/-zGqYlqy85-800.jpeg 800w, /img/-zGqYlqy85-1920.jpeg 1920w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/-zGqYlqy85-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/-zGqYlqy85-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/-zGqYlqy85-800.jpeg" width="800" height="450" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/power-outage-no-badminton/">
           Badminton Cancelled Due to Power Outage 💡🚨
         </a></h2>
@@ -491,7 +503,10 @@
 
 
   
-<article dir="ltr" lang="en"><header>
+<article dir="ltr" lang="en">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/en/post/origins-of-promitheas/">
           Promitheas: A Cultural and Athletic Pillar of Paphos
 
@@ -508,7 +523,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/WON4SH5aDt-400.webp 400w, /img/WON4SH5aDt-800.webp 800w, /img/WON4SH5aDt-1920.webp 1920w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/WON4SH5aDt-400.jpeg" width="1920" height="1287" srcset="/img/WON4SH5aDt-400.jpeg 400w, /img/WON4SH5aDt-800.jpeg 800w, /img/WON4SH5aDt-1920.jpeg 1920w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/WON4SH5aDt-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/WON4SH5aDt-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/WON4SH5aDt-800.jpeg" width="800" height="536" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/hall-unavailable-school-use-2025-03-24/">
           Hall Unavailable Due to School Use
         </a></h2>
@@ -525,13 +542,16 @@
 
 
   
-<article dir="ltr" lang="nl"><header>
+<article dir="ltr" lang="nl">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/nl/">
           
         </a></h2>
   </header>
 
-  <p class="meta"><time datetime="Tue Nov 03 2026 07:28:56 GMT+0200 (Eastern European Standard Time)">
+  <p class="meta"><time datetime="Tue Nov 03 2026 14:04:50 GMT+0200 (Eastern European Standard Time)">
         3 november 2026
       </time>
       <br>
@@ -693,7 +713,7 @@ like this article:">
 
   </p></footer>
 
-  <script id="quicklink_js" async="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+  <script id="quicklink_js" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/3.0.2/quicklink.min.js"></script>
 
   <script>
 
@@ -750,6 +770,20 @@ like this article:">
 
     article .meta {
     	color: var(--text-light);
+    }
+
+    .card-image-wrapper {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% top;
+      display: block;
     }
 </style>
 

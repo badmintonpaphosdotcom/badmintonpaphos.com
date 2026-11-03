@@ -15,6 +15,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proodeftikos BC | Παιδιά</title>
   <meta name="description" content="Προσφέρουμε πλήρη εκπαίδευση για παιδιά.">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin="">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
   <script>
     window.env = JSON.parse(`{
@@ -44,10 +50,9 @@
   <meta property="og:url" content="https://badmintonpaphos.com/undefined">
   <meta property="og:description" content="Προσφέρουμε πλήρη εκπαίδευση για παιδιά.">
 
-  <style>
+  <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css" crossorigin="">
 
-    /* External CSS */
-    @import url('https://unpkg.com/simpledotcss/simple.min.css');
+  <style>
 
     @media print {
       .no-print {
@@ -68,13 +73,7 @@
       font-weight: bold;
     }
 
-    .logo {
-      z-index: -1;
-      margin-top: 1rem;
-      position: absolute;
-      right: 0;
-      opacity: 0.1
-    }
+
 
     hr {
       opacity: 0.2;
@@ -142,8 +141,8 @@
       ::backdrop {
         --bg: #000000AA; /* Semi-transparent black background */
         --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #4eb27e; /* Light green for dark theme (7.99:1 contrast with black) */
-        --accent-hover: #3d9966; /* Slightly darker shade for hover state */
+        --accent: #72e2a8; /* Brighter green for dark theme (~8.1:1 contrast with black, passes AAA) */
+        --accent-hover: #5fdca0; /* Slightly darker shade for hover state */
         --accent-bg: #33333366;
       }
     }
@@ -446,9 +445,20 @@
       fill: var(--fg);
       color: var(--fg);
     }
+
+    .logo {
+      width: 33vw;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      position: absolute;
+      right: 0;
+      margin-top: 33vh;
+      opacity: 0.1;
+    }
   </style>
   <nav class="menu menu--main no-print">
-    <picture><source type="image/webp" srcset="/img/wUhRK4fxT_-400.webp 400w, /img/wUhRK4fxT_-800.webp 800w, /img/wUhRK4fxT_-1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" aria-hidden="true" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-400.jpeg" width="1024" height="1024" srcset="/img/wUhRK4fxT_-400.jpeg 400w, /img/wUhRK4fxT_-800.jpeg 800w, /img/wUhRK4fxT_-1024.jpeg 1024w" sizes="100vw"></picture>
+    <picture><source type="image/avif" srcset="/img/wUhRK4fxT_-600.avif" sizes="100vw"><source type="image/webp" srcset="/img/wUhRK4fxT_-600.webp" sizes="100vw"><img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-600.jpeg" width="600" height="600"></picture>
 
     <ul>
       <li><a href="/">
@@ -729,7 +739,7 @@ like this article:">
 
   </p></footer>
 
-  <script id="quicklink_js" async="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+  <script id="quicklink_js" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/3.0.2/quicklink.min.js"></script>
 
   <script>
 
@@ -786,6 +796,20 @@ like this article:">
 
     article .meta {
     	color: var(--text-light);
+    }
+
+    .card-image-wrapper {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% top;
+      display: block;
     }
 </style>
 

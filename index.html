@@ -16,6 +16,12 @@
   <title>Proodeftikos BC | Inclusive Badminton in Paphos</title>
   <meta name="description" content="Experience inclusive badminton at Proodeftikos Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you&#39;re a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!
 ">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin="">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
   <script>
     window.env = JSON.parse(`{
@@ -44,10 +50,9 @@
   <meta property="og:description" content="Experience inclusive badminton at Proodeftikos Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you&#39;re a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!
 ">
 
-  <style>
+  <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css" crossorigin="">
 
-    /* External CSS */
-    @import url('https://unpkg.com/simpledotcss/simple.min.css');
+  <style>
 
     @media print {
       .no-print {
@@ -68,13 +73,7 @@
       font-weight: bold;
     }
 
-    .logo {
-      z-index: -1;
-      margin-top: 1rem;
-      position: absolute;
-      right: 0;
-      opacity: 0.1
-    }
+
 
     hr {
       opacity: 0.2;
@@ -142,8 +141,8 @@
       ::backdrop {
         --bg: #000000AA; /* Semi-transparent black background */
         --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #4eb27e; /* Light green for dark theme (7.99:1 contrast with black) */
-        --accent-hover: #3d9966; /* Slightly darker shade for hover state */
+        --accent: #72e2a8; /* Brighter green for dark theme (~8.1:1 contrast with black, passes AAA) */
+        --accent-hover: #5fdca0; /* Slightly darker shade for hover state */
         --accent-bg: #33333366;
       }
     }
@@ -421,9 +420,20 @@
       fill: var(--fg);
       color: var(--fg);
     }
+
+    .logo {
+      width: 33vw;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      position: absolute;
+      right: 0;
+      margin-top: 33vh;
+      opacity: 0.1;
+    }
   </style>
   <nav class="menu menu--main no-print">
-    <picture><source type="image/webp" srcset="/img/wUhRK4fxT_-400.webp 400w, /img/wUhRK4fxT_-800.webp 800w, /img/wUhRK4fxT_-1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" aria-hidden="true" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-400.jpeg" width="1024" height="1024" srcset="/img/wUhRK4fxT_-400.jpeg 400w, /img/wUhRK4fxT_-800.jpeg 800w, /img/wUhRK4fxT_-1024.jpeg 1024w" sizes="100vw"></picture>
+    <picture><source type="image/avif" srcset="/img/wUhRK4fxT_-600.avif" sizes="100vw"><source type="image/webp" srcset="/img/wUhRK4fxT_-600.webp" sizes="100vw"><img loading="lazy" decoding="async" class="logo" alt="Proodeftikos Badminton Club" src="/img/wUhRK4fxT_-600.jpeg" width="600" height="600"></picture>
 
     <ul>
       <li><a aria-current="page" href="/">
@@ -624,7 +634,10 @@
 
 
   
-<article dir="ltr" lang="en"><header>
+<article dir="ltr" lang="en">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/en/post/friendly-beginner-badminton-competition-at-albatross-club/">
           Friendly Beginner’s Badminton Competition at Albatross Club
         </a></h2>
@@ -642,7 +655,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/_lUZuJNbe0-400.webp 400w, /img/_lUZuJNbe0-800.webp 800w, /img/_lUZuJNbe0-1200.webp 1200w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/_lUZuJNbe0-400.jpeg" width="1200" height="673" srcset="/img/_lUZuJNbe0-400.jpeg 400w, /img/_lUZuJNbe0-800.jpeg 800w, /img/_lUZuJNbe0-1200.jpeg 1200w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/_lUZuJNbe0-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/_lUZuJNbe0-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/_lUZuJNbe0-800.jpeg" width="800" height="448" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/minister-and-president-visiting-school-no-badminton-sep-15-and-16/">
           No Badminton on 15 &amp; 16 September
         </a></h2>
@@ -660,7 +675,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/CZaGnHRN0--400.webp 400w, /img/CZaGnHRN0--800.webp 800w, /img/CZaGnHRN0--1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/CZaGnHRN0--400.jpeg" width="1024" height="1024" srcset="/img/CZaGnHRN0--400.jpeg 400w, /img/CZaGnHRN0--800.jpeg 800w, /img/CZaGnHRN0--1024.jpeg 1024w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/CZaGnHRN0--800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/CZaGnHRN0--800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/CZaGnHRN0--800.jpeg" width="800" height="800" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/we-are-now-part-of-proodeftikos/">
           Promitheas BC is now part of Proodeftikos
         </a></h2>
@@ -678,7 +695,10 @@
 
 
   
-<article dir="ltr" lang="en"><header>
+<article dir="ltr" lang="en">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/en/post/hall-availability-june-30th-to-july-4th/">
           Hall Availability (June 30th - July 4th)
         </a></h2>
@@ -696,7 +716,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/0G9RaO48Lk-400.webp 400w, /img/0G9RaO48Lk-800.webp 800w, /img/0G9RaO48Lk-3214.webp 3214w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/0G9RaO48Lk-400.jpeg" width="3214" height="3026" srcset="/img/0G9RaO48Lk-400.jpeg 400w, /img/0G9RaO48Lk-800.jpeg 800w, /img/0G9RaO48Lk-3214.jpeg 3214w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/0G9RaO48Lk-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/0G9RaO48Lk-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/0G9RaO48Lk-800.jpeg" width="800" height="753" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/first-aid-training/">
           First Aid Training – Club Will Cover the Cost
         </a></h2>
@@ -714,7 +736,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/FPP-7_4qiK-400.webp 400w, /img/FPP-7_4qiK-800.webp 800w, /img/FPP-7_4qiK-1200.webp 1200w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/FPP-7_4qiK-400.jpeg" width="1200" height="630" srcset="/img/FPP-7_4qiK-400.jpeg 400w, /img/FPP-7_4qiK-800.jpeg 800w, /img/FPP-7_4qiK-1200.jpeg 1200w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/FPP-7_4qiK-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/FPP-7_4qiK-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/FPP-7_4qiK-800.jpeg" width="800" height="420" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/we-keep-playing-during-easter/">
           We are open during Easter
         </a></h2>
@@ -732,7 +756,10 @@
 
 
   
-<article dir="ltr" lang="en"><header>
+<article dir="ltr" lang="en">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/en/post/how-to-develop-your-clear-in-badminton/">
           How to Develop Your Clear in Badminton
         </a></h2>
@@ -750,7 +777,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/_lx-jbj7dS-400.webp 400w, /img/_lx-jbj7dS-800.webp 800w, /img/_lx-jbj7dS-1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/_lx-jbj7dS-400.jpeg" width="1024" height="682" srcset="/img/_lx-jbj7dS-400.jpeg 400w, /img/_lx-jbj7dS-800.jpeg 800w, /img/_lx-jbj7dS-1024.jpeg 1024w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/_lx-jbj7dS-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/_lx-jbj7dS-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/_lx-jbj7dS-800.jpeg" width="800" height="532" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/badminton-in-paphos/">
           Your guide to Badminton in Paphos
         </a></h2>
@@ -768,7 +797,10 @@
 
 
   
-<article dir="ltr" lang="en"><header>
+<article dir="ltr" lang="en">
+    <div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/qAXC9a306t-800.avif" sizes="100vw"><source type="image/webp" srcset="/img/qAXC9a306t-800.webp" sizes="100vw"><img loading="lazy" decoding="async" alt="Badminton Placeholder" src="/img/qAXC9a306t-800.jpeg" width="800" height="536" style="opacity: 0.7;"></picture>
+    </div><header>
     <h2><a href="/en/post/how-to-improve-in-badminton/">
           How to Improve in Badminton: A Focused Approach Based on Your Current State
 
@@ -787,7 +819,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/A6LOmXUTZV-400.webp 400w, /img/A6LOmXUTZV-800.webp 800w, /img/A6LOmXUTZV-1080.webp 1080w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/A6LOmXUTZV-400.jpeg" width="1080" height="890" srcset="/img/A6LOmXUTZV-400.jpeg 400w, /img/A6LOmXUTZV-800.jpeg 800w, /img/A6LOmXUTZV-1080.jpeg 1080w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/A6LOmXUTZV-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/A6LOmXUTZV-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/A6LOmXUTZV-800.jpeg" width="800" height="659" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/exciting-badminton-tournament-unites-young-athletes-in-paphos/">
           Exciting Badminton Tournament Unites Young Athletes in Paphos
         </a></h2>
@@ -805,7 +839,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/F4JErMdUOe-400.webp 400w, /img/F4JErMdUOe-800.webp 800w, /img/F4JErMdUOe-1024.webp 1024w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/F4JErMdUOe-400.jpeg" width="1024" height="1024" srcset="/img/F4JErMdUOe-400.jpeg 400w, /img/F4JErMdUOe-800.jpeg 800w, /img/F4JErMdUOe-1024.jpeg 1024w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/F4JErMdUOe-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/F4JErMdUOe-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/F4JErMdUOe-800.jpeg" width="800" height="800" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/the_importance_of_good_badminton_shoes_for_beginners_and_intermediate_players/">
           The Importance of Good Badminton Shoes for Beginners and Intermediate Players
         </a></h2>
@@ -823,7 +859,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/JwA9vHsToo-400.webp 400w, /img/JwA9vHsToo-800.webp 800w, /img/JwA9vHsToo-968.webp 968w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/JwA9vHsToo-400.jpeg" width="968" height="1080" srcset="/img/JwA9vHsToo-400.jpeg 400w, /img/JwA9vHsToo-800.jpeg 800w, /img/JwA9vHsToo-968.jpeg 968w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/JwA9vHsToo-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/JwA9vHsToo-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/JwA9vHsToo-800.jpeg" width="800" height="892" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/badminton-kids-tournement-feb-15-U17/">
           Badminton Tournament for Kids and Teens (U17)
         </a></h2>
@@ -841,7 +879,9 @@
 
 
   
-<article dir="ltr" lang="en"><picture><source type="image/webp" srcset="/img/DG234wW4Zj-400.webp 400w, /img/DG234wW4Zj-800.webp 800w, /img/DG234wW4Zj-1000.webp 1000w" sizes="100vw"><img loading="lazy" decoding="async" alt="" src="/img/DG234wW4Zj-400.jpeg" width="1000" height="456" srcset="/img/DG234wW4Zj-400.jpeg 400w, /img/DG234wW4Zj-800.jpeg 800w, /img/DG234wW4Zj-1000.jpeg 1000w" sizes="100vw"></picture><header>
+<article dir="ltr" lang="en"><div class="card-image-wrapper">
+      <picture><source type="image/avif" srcset="/img/DG234wW4Zj-800.avif" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><source type="image/webp" srcset="/img/DG234wW4Zj-800.webp" sizes="(max-width: 600px) 90vw, (max-width: 1200px) 80vw, 70vw"><img loading="lazy" decoding="async" alt="" src="/img/DG234wW4Zj-800.jpeg" width="800" height="364" style="display: block;"></picture>
+    </div><header>
     <h2><a href="/en/post/website-updates/">
           Website Updates
         </a></h2>
@@ -1011,7 +1051,7 @@ like this article:">
 
   </p></footer>
 
-  <script id="quicklink_js" async="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+  <script id="quicklink_js" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/3.0.2/quicklink.min.js"></script>
 
   <script>
 
@@ -1068,6 +1108,20 @@ like this article:">
 
     article .meta {
     	color: var(--text-light);
+    }
+
+    .card-image-wrapper {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% top;
+      display: block;
     }
 </style>
 
